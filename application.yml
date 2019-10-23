@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+       dev
+---
+spring:
+  profiles: dev   #开发环境
+  application:
+    name: microserviicecloud-config-nanchang-dev
+
+---
+spring:
+  profiles: test   #测试环境
+  application:
+    name: microservicecloud-config-nanchang-test    
+ #注意，要保存成utf-8格式
