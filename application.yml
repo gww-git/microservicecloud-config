@@ -8,8 +8,8 @@ spring:
   application:
     name: microserviicecloud-config-nanchang-dev
   
- test: 
-   info: dev
+test: 
+  info: dev
 
 ---
 spring:
