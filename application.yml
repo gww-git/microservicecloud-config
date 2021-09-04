@@ -7,6 +7,9 @@ spring:
   profiles: dev   #开发环境
   application:
     name: microserviicecloud-config-nanchang-dev
+  
+ test: 
+   info: dev
 
 ---
 spring:
